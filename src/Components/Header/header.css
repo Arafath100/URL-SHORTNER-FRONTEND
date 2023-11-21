@@ -1,0 +1,15 @@
+* {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.bg-n {
+  background-position: 0 0;
+  background-color: #112e42;
+  background-size: 300%;
+}
+
+navbar-nav .nav-item .nav-link:hover {
+  background-color: darkgray; 
+  border-radius: .3rem;
+}

@@ -1,0 +1,58 @@
+/* Center align content within the App class */
+.App {
+  text-align: center;
+}
+
+/* Set dimensions and pointer events for the App-logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Apply animation to App-logo based on prefers-reduced-motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Styling for the App header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Styling for App-link */
+.App-link {
+  color: #717272;
+}
+
+/* Define keyframes for App-logo-spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Set width for input elements */
+input {
+  width: 75%;
+}
+
+/* Styling for the URL heading */
+.urlheading {
+  font: 800 2rem asap, arial;
+  color: #363738;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 2px #ddd;
+  word-wrap: break-word;
+}
